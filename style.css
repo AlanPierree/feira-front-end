@@ -1,5 +1,35 @@
 :root {
-    --branco_um: #FFFFFF
-    --font-um: 'Inter'
+    --branco_um: #fffff1;
+    --font-um: 'Inter';
+    --preto-um: #01080E;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.inicio {
+    display: grid;
+    grid-template-columns: 50%;
+    background-color: var(--preto-um);
+    color: var(--branco_um);
+    align-items: center;
+    padding: 12em;
+    font-family: var(--font-um);
+}
+
+.first-title {
+    font-family: var(--font-um);
+    font-size: 60px;
+    margin: 1em 1em 0 1em;
+}
+
+.second-title {
+    margin: 0 1em 1em 1em;
+}
+
+.texto-um {
+    font-size: 20px;
+    padding: 0 2em;
+}
