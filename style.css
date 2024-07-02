@@ -1,26 +1,26 @@
 :root {
     --branco_um: #fffff1;
     --font-um: 'Inter';
-    --preto-um: #01080E;
+    --bg-cor: #01080E;
 }
 
 * {
-    margin: 0;
+    margin: 15px;
     padding: 0;
+    font-family: var(--font-um);
+    background-color: var(--bg-cor);
+    color: var(--branco_um);
 }
 
 .inicio {
     display: grid;
     grid-template-columns: 50%;
-    background-color: var(--preto-um);
-    color: var(--branco_um);
     align-items: center;
-    padding: 12em;
-    font-family: var(--font-um);
+    padding: 15em;
+    margin: 0;
 }
 
 .first-title {
-    font-family: var(--font-um);
     font-size: 60px;
     margin: 1em 1em 0 1em;
 }
@@ -30,6 +30,20 @@
 }
 
 .texto-um {
+    font-size: 20px;
+    padding: 0 2em;
+    margin: 0;
+}
+
+.ex-html {
+    display: grid;
+    grid-template-columns: 50%;
+    margin: 0;
+    padding: 0 1em 0 1em;
+    text-align: left;
+}
+
+.texto-dois {
     font-size: 20px;
     padding: 0 2em;
 }
