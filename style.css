@@ -33,7 +33,7 @@
     margin: 0.4em 0 1.5em 1em;
 }
 
-.texto-um {
+.main-text {
     font-size: 20px;
     padding: 0 2em;
     margin: 0;
@@ -45,11 +45,11 @@
     box-shadow: 15px 15px 8px 0 #000000;
 }
 
-.caixa-sec {
+.caixa-html {
     display: grid;
     grid-template-columns: 50%;
     display: flex;
-    padding: 5em;
+    padding: 3em;
 }
 
 .sec-img {
@@ -58,9 +58,10 @@
     box-shadow: 15px 15px 8px 0 #000000;
 }
 
-.texto-dois {
+.html-text {
     margin: 2em;
     font-size: 20px;
+    text-align: justify;
 }
 
 div > h3 {
@@ -69,4 +70,14 @@ div > h3 {
 
 div > p {
     margin-bottom: 1em;
+}
+
+.caixa-cmf {
+    padding: 5em;
+    text-align: justify;
+}
+
+ul > li {
+    margin-left: 2em;
+    padding: 7px;
 }
