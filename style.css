@@ -42,7 +42,7 @@
     padding: 1em;
 }
 
-.main-text > p {
+.main-text>p {
     padding: 0 3em;
 }
 
@@ -58,13 +58,13 @@
     align-items: center;
 }
 
-.list-topics > h3 {
+.list-topics>h3 {
     padding-left: 1em;
 }
 
 .caixa-html {
     display: flex;
-    padding: 1em;
+    padding: 4em;
     align-items: center;
 }
 
@@ -86,16 +86,16 @@ h3 {
     text-shadow: 0.1em 0.1em #000;
 }
 
-div > h3 {
+div>h3 {
     margin-bottom: 1em;
 }
 
-div > p {
+div>p {
     margin-bottom: 1em;
 }
 
 .caixa-cmf {
-    padding: 0 6em;
+    padding: 0 7em;
     text-align: justify;
 }
 
@@ -112,7 +112,7 @@ div > p {
     display: flex;
 }
 
-.listas-pc > h4 {
+.listas-pc>h4 {
     padding: 0.5em;
 }
 
@@ -125,7 +125,7 @@ div > p {
     padding: 1em;
 }
 
-ul > li {
+ul>li {
     margin-left: 2em;
     padding: 7px;
 }
@@ -141,8 +141,74 @@ footer {
     padding: 2em;
 }
 
-footer > p {
+footer>p {
     background-color: #000;
     background-image: url(imagens/black-mamba.png);
 }
 
+@media screen and (max-width: 750px) {
+
+    .caixa,
+    .caixa-html,
+    .caixa-cmf,
+    .caixa-topics,
+    .caixa-pc {
+        display: block;
+        width: auto;
+        padding: 1em;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    .html-text {
+        padding: 0;
+        text-align: center;
+    }
+
+    .cmf-text {
+        display: block;
+    }
+
+    .first-img, .sec-img{
+        display: block;
+        width: 100%;
+        height: 100%;
+        float: none;
+        padding: 0;
+        margin: 0;
+        box-shadow: none;
+        align-items: center;
+        padding-left: 1em;
+    }
+
+    h3 {
+        align-items: center;
+    }
+
+    p {
+        justify-items: center;
+    }
+
+    .first-title {
+        font-size: 45px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .second-title {
+        font-size: 20px;
+        padding: 1em;
+    }
+
+    .listas-pc {
+        display: block;
+    }
+
+    .pro-list, .con-list {
+        display: block;
+        margin: 0;
+        padding: 1em;
+        text-align: left;
+    }
+}
