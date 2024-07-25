@@ -1,16 +1,20 @@
 :root {
     --branco_um: #fffff1;
     --font-um: 'Inter';
-    --bg-cor: #001324;
+    --bg-cor: #00101e;
 }
 
 * {
     margin: 0;
     padding: 0;
     font-family: var(--font-um);
-    background-color: var(--bg-cor);
+    background: var(--bg-cor);
     color: var(--branco_um);
     font-size: 20px;
+}
+
+.body {
+    background: linear-gradient(var(--bg-cor), #000);
 }
 
 .caixa {
@@ -21,6 +25,7 @@
 }
 
 .first-title {
+    margin-right: 1.5em;
     font-size: 60px;
     padding: 0 1em 0 1em;
     text-shadow: 0.1em 0.1em #000;
@@ -90,8 +95,34 @@ div > p {
 }
 
 .caixa-cmf {
-    padding: 3em;
+    padding: 0 6em;
     text-align: justify;
+}
+
+.caixa-pc {
+    padding: 2em 6em;
+    text-align: justify;
+}
+
+.cmf-text {
+    display: flexbox;
+}
+
+.listas-pc {
+    display: flex;
+}
+
+.listas-pc > h4 {
+    padding: 0.5em;
+}
+
+.pro-list {
+    padding: 1em;
+}
+
+.con-list {
+    margin-left: 7em;
+    padding: 1em;
 }
 
 ul > li {
