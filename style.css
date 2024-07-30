@@ -14,12 +14,12 @@
 }
 
 .body {
-    background: linear-gradient(var(--bg-cor), #000);
+    background: var(--bg-cor);
 }
 
 .caixa {
     display: flex;
-    padding: 1em;
+    padding: 1em 2em 1em 8em;
     margin: 30px;
     align-items: center;
 }
@@ -47,6 +47,7 @@
 }
 
 .first-img {
+    margin-right: 8em;
     float: right;
     max-height: 100%;
     max-width: 90%;
@@ -54,17 +55,17 @@
 }
 
 .caixa-topics {
-    margin-left: 15px;
+    padding: 0 7em;
     align-items: center;
 }
 
-.list-topics>h3 {
+.topics>h3 {
     padding-left: 1em;
 }
 
 .caixa-html {
     display: flex;
-    padding: 4em;
+    padding: 2em 7em;
     align-items: center;
 }
 
@@ -134,6 +135,11 @@ ul>li {
     margin-bottom: 1em;
 }
 
+.caixa-conclusao {
+    padding: 2em 6em;
+    text-align: justify;
+}
+
 footer {
     background-color: #000;
     background-image: url(imagens/black-mamba.png);
@@ -152,7 +158,8 @@ footer>p {
     .caixa-html,
     .caixa-cmf,
     .caixa-topics,
-    .caixa-pc {
+    .caixa-pc,
+    .caixa-conclusao {
         display: block;
         width: auto;
         padding: 1em;
@@ -165,6 +172,15 @@ footer>p {
         padding: 0;
         text-align: center;
     }
+
+    .topics {
+        padding-right: 1em;
+    }
+
+    .list-topics {
+        list-style-type: none;
+    }
+    
 
     .cmf-text {
         display: block;

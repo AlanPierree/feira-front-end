@@ -1,0 +1,50 @@
+:root {
+    --branco_um: #fffff1;
+    --font-um: 'Inter';
+    --bg-cor: #00101e;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-um);
+    background: var(--bg-cor);
+    color: var(--branco_um);
+    font-size: 20px;
+}
+
+.body {
+    background: var(--bg-cor);
+}
+
+.caixa {
+    display: flex;
+    padding: 1em 2em 1em 8em;
+    margin: 30px;
+    align-items: center;
+}
+
+.first-title {
+    margin-right: 1.5em;
+    font-size: 60px;
+    padding: 0 1em 1em 1em;
+    text-shadow: 0.1em 0.1em #000;
+}
+
+.main-text {
+    font-size: 20px;
+    padding: 1em;
+}
+
+.main-text>p {
+    padding: 0 3em 1em 3em;
+}
+
+.first-img {
+    margin-right: 8em;
+    float: right;
+    width: 60%;
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: 15px 15px 8px 0 #000000;
+}
