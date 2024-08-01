@@ -56,7 +56,7 @@
 
 .caixa-topics {
     display: flex;
-    padding: 1em 9em;
+    padding: 3em 9em 0 9em;
     align-items: center;
 }
 
@@ -187,6 +187,7 @@ footer>p {
     }
 
     .list-topics {
+        display: block;
         list-style-type: none;
     }
     
