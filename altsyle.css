@@ -101,6 +101,15 @@ div>p {
     text-align: justify;
 }
 
+.caixa-anatomia {
+    padding: 0 14em;
+    text-align: justify;
+}
+
+.anatomia-text > h3 {
+    margin-top: 3em;
+}
+
 footer {
     background-color: #000;
     background-image: url(imagens/black-mamba.png);
