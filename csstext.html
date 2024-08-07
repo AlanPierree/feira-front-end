@@ -15,14 +15,13 @@
 <body>
     <section class="caixa principal">
         <div class="main-text">
-            <h1 class="first-title">O que é CSS?</h1>
+            <h1 class="first-title">O que é CSS</h1>
 
             <p>CSS é a sigla para o termo em inglês Cascading Style Sheets que, traduzido para o português, significa
                 Folha de Estilo em Cascatas. O CSS é fácil de aprender e entender e é facilmente utilizado com a
-                linguagem de marcação HTML</p>
+                linguagem de marcação <strong><a href="index.html">HTML</a></strong></p>
             <p> O CSS separa o conteúdo da representação visual do site. Utilizando o
-                CSS é possível alterar aspectos visuais, como cor do texto e do fundo, fonte, espaçamento entre
-                parágrafos, entre outros.</p>
+                CSS é possível alterar a cor do texto e do fundo, fonte e espaçamento entre parágrafos, etc.</p>
 
         </div>
 
@@ -33,90 +32,66 @@
 
     </section>
 
-    <section class="caixa-topics">
-        <div class="topics">
-
-            <h3>Tópicos</h3>
-
-            <ul class="list-topics">
-                <li><a href="#html-&-css">Relação HTML & CSS</a></li>
-                <li><a href="#como-funciona">Como funciona o HTML</a></li>
-                <li><a href="#pros-e-contras">Prós e Contras</a></li>
-                <li><a href="#conclusao">Conclusão</a></li>
-
-            </ul>
-        </div>
-    </section>
-
-    <section class="caixa-html-css" id="html-&-css">
-
+    <section class="caixa-html-css" id="relacao-html-css">
         <div class="html-css-text">
 
             <h3>Relação HTML & CSS</h3>
-            <p>CSS foi desenvolvido pelo W3C (World Wide Web Consortium) em 1996, por uma razão bem simples. O HTML não
-                foi projetado para ter tags que ajudariam a formatar a página. Você deveria apenas escrever a marcação
-                para o site.</p>
-            <p>Tags como &lt;font&gt; foram introduzidas na versão 3.2 do HTML e causaram muitos problemas para os
-                desenvolvedores. Como os sites tinham diferentes fontes, cores e estilos, era um processo longo,
-                doloroso e caro para reescrever o código. Assim, o CSS foi criado pelo W3C para resolver este
-                problema.</p>
-            <p>A relação entre HTML e CSS é bem forte. Como o HTML é uma linguagem de marcação (o alicerce de um site) e
-                o CSS é focado no estilo (toda a estética de um site), eles andam juntos.</p>
-        </div>
-    </section>
-
-    <section class="caixa-cmf" id="como-funciona">
-        <div class="cmf-text">
-            <h3>Como funciona o CSS</h3>
-            <p>O CSS é uma ferramenta muito potente que possibilita criar diversas funcionalidades ao invés de usar
-                JavaScript ou outra linguagem mais pesada. Se usado com moderação, CSS pode viabilizar uma ótima
-                experiência ao desenvolvedor e usuários das páginas web.</p>
-            <p>Com o <em>Cascading Style Sheets é possível</em> criar animações complexas, criar efeitos com uso de
-                parallax, que faz parecer que a imagem de fundo tem uma profundidade diferente um dos outros, criar
-                sites interativos e também jogos com HTML5 e CSS3.</p>
-            <p>O CSS usa uma sintaxe simples baseada em inglês com um conjunto de regras que o governam. Como
-                mencionamos anteriormente, o HTML nunca teve a intenção de usar elementos de estilo, apenas a marcação
-                da página. Foi criado para descrever apenas o conteúdo. Por exemplo:
+            <p>O HTML nunca teve a intenção de usar elementos de estilo, apenas a marcação da página. O HTML foi criado
+                para
+                descrever apenas o conteúdo. Por exemplo:
                 &lt;p&gt;Este é um parágrafo.&lt;/p&gt;</p>
-            <p>Mas como você estiliza o parágrafo? A estrutura da sintaxe CSS é bem simples. Tem um seletor e um bloco
-                de declaração. Você seleciona um elemento e depois declara o que deseja fazer com ele. O seletor aponta
-                para o elemento HTML que você deseja estilizar. O bloco de declaração contém uma ou mais declarações
-                separadas por ponto e vírgula.</p>
+            <p>Mas como você estiliza o parágrafo? O CSS seerve para isso. A estrutura da sintaxe CSS é bem simples: Tem
+                um seletor e um bloco
+                de declaração. Você seleciona um elemento e depois declara o que deseja fazer com ele.</p>
+            <p>O seletor aponta para o elemento HTML que você deseja estilizar. O bloco de declaração contém uma ou mais
+                declarações separadas por ponto e vírgula.</p>
             <p>Cada declaração inclui um nome de propriedade CSS e um valor, separados por dois pontos. Uma declaração
                 CSS sempre termina com um ponto-e-vírgula e os blocos de declaração são cercados por chaves. Exemplo:
             </p>
 
-            <p style="font-weight:bold;">&lt;style&gt;<br>
-                <br>
-                p {<br>
-                color: blue;<br>
-                text-weight: bold;<br>
-                }<br>
-                <br>
-                &lt;/style&gt;
+            <p><strong>
+                    &lt;style&gt;<br>
+
+                    <br>p {<br>
+                    color: blue;<br>
+                    text-weight: bold;<br>
+                    }<br>
+
+                    <br>&lt;style&gt;<br></strong>
             </p>
 
             <p>Nesse exemplo, todos os elementos &lt;p&gt; serão estilizados e serão coloridos de azul e negrito.</p>
         </div>
     </section>
 
-    <section class="caixa-anatomia">
+    <section class="caixa-anatomia" id="anatomia-css">
         <div class="anatomia-text">
+
             <h3>Anatomia de um comando CSS</h3>
             <p>O CSS estipula regras para o arquivo em html. Com cada regra é possível estilizar o conteúdo todo ou
-                somente determinados elementos. Por isso entenda, um comando básico é composto por seletor e
-                declarações, que contém propriedade e valor.</p>
+                somente determinados elementos. Um comando básico é composto por seletor e
+                declarações, que contém propriedade e valor:
+            </p>
+
             <p><em>SELETOR {PROPRIEDADE: VALOR}</em></p>
-            <p>A sintaxe do CSS é muito simples de aprender. O seletor seleciona quais elementos em HTML receberão a
-                propriedade. Pode ser <em>p</em> (parágrafo) ou o <em>body</em> (corpo da sua página). Já a propriedade pode ser a cor ou
-                algo mais específico como cor do fundo (background). E por último o valor, que determina o valor da
-                propriedade.</p>
+
+            <p>O seletor seleciona quais elementos em html receberão a propriedade. Pode ser p (parágrafo) ou o body
+                (corpo da sua página). Já a propriedade pode ser a cor ou algo mais específico como cor do fundo
+                (background). E por último o valor, que determina o valor da propriedade.
+            </p>
+
+        </div>
+    </section>
+
+    <section class="conclusao">
+        <div>
+            <h3>Conclusão</h3>
+            <p>Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web, aplicado diretamente nas
+                tags
+                HTML ou ficar contido dentro das tags &lt;style&gt;.
+                Também é possível, adicionar estilos adicionando um link para um arquivo CSS que contém os estilos.</p>
         </div>
     </section>
 </body>
-
-<footer>
-    <p>&copy Copyright | O que é Programação Front-End | Alan Pierre | 2024</p>
-</footer>
 
 </html>
