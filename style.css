@@ -175,9 +175,6 @@ footer > p {
         text-align: center;
     }
 
-    .listat {
-        display: block;
-
     .cmf-text {
         display: block;
     }
@@ -222,5 +219,9 @@ footer > p {
         margin: 0;
         padding: 1em;
         text-align: left;
+    }
+
+    .listat {
+        display: block;
     }
 }
