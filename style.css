@@ -154,14 +154,15 @@ footer > p {
     background-image: url(imagens/black-mamba.png);
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1080px) {
 
     .caixa,
     .caixa-html,
     .caixa-cmf,
     .caixa-topics,
     .caixa-pc,
-    .caixa-conclusao {
+    .caixa-conclusao,
+    .listas-pc {
         display: block;
         width: auto;
         padding: 1em;
