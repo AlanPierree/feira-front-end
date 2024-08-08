@@ -189,6 +189,7 @@ footer > p {
         margin: 0;
         box-shadow: none;
         align-items: center;
+        text-align: center;
     }
 
     h3 {
